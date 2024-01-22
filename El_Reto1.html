@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styleI.css">
+    <meta charset="UTF-8">
+    <link rel = "icon" href = "imagenes/LogoEUSKK1.jpg"
+            type = "image/x-icon"></link> 
+    <title>Document</title>
+    <style>
+
+.main{
+        
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+}
+h1{
+    color: white;
+    -webkit-text-stroke: 2px black;
+    border-color: black;
+}
+body {
+    
+    background-image: url('https://cdn.pixabay.com/photo/2017/03/25/17/56/color-2174049_1280.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    
+}   
+.cabezera{
+    text-align: center;
+    grid-column: 1/4;
+    font-size: 30px;
+}
+
+.menu {
+    border-radius: 70px;
+    background-color:#539fa2;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2/2;
+    grid-column: 1/4;
+    width: 933px;
+}
+
+.menu li, ul {
+    text-decoration: none;
+    display: inline;
+    padding: 35px;
+}
+ul,li{
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+}
+.quienessomos{
+    border-radius: 50px;
+    margin: auto;
+    padding: 20px;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    background-color: #72b1a4;
+    width: 80%;
+
+    
+}
+
+.mapa{
+    grid-row: 4/5;
+    grid-column: 1/2;
+}
+.ubicacion{
+    grid-row: 5/6;
+    grid-column: 3/4;
+    margin: auto;
+    padding: 20px;
+    background-color: #d4e2b6;
+    width: 70%;
+    height: 90%;
+    border-radius: 50px;
+}
+.ubicacion1{
+    grid-row: 6/7;
+    grid-column: 1/4;
+    border-radius: 70px;
+    background-color:#539fa2;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 933px;
+
+}
+
+.logo{
+
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 15/16;
+}
+section {
+    text-align: center;
+    display: flex;
+    width: 800px;
+    height: 430px;
+    margin: 0 auto;
+   grid-row: 16/17;
+   grid-column: 1/4;
+
+  }
+  section img {
+    width: 20px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(150%);
+    transition: .5s ease;
+    padding-left: 0px;
+    grid-row: 16/17;
+    
+  }
+  section img:hover{
+    cursor: pointer;
+    width: 700px;
+    opacity: 1;
+    filter: brightness(150%);
+    grid-row: 16/17;
+  }
+
+  .privacy{
+    border-radius: 90px;
+    background-color:#539fa2;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 933px;
+    grid-column: 1/4;
+    grid-row: 17/18;
+    
+  }
+  .boton1 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: #539fa2;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton1:hover {
+    background-color: #abccb1;
+    transform: scale(1.05);
+}
+  .boton2 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: #539fa2;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton2:hover {
+    background-color: #abccb1; 
+    transform: scale(1.05);
+}
+
+
+    </style>
+
+</head>
+
+
+<body >
+    
+<div class="main">
+    <div class = "cabezera">
+        <h1>nombre_restaurante</h1>
+    
+    </div>
+        <div class = "menu">
+        
+                <a href="FormularioMotorShow.html">
+                    <button class="boton1"> Reservas </button>
+                    </a>
+                    <a href="menu1.html">
+                        <button class="boton1"> Menu </button>
+                        </a>
+        
+    </div>
+
+        <div class= "quienessomos">
+            <h2>¿Tienes hambre?</h2>
+            <br>
+            Ven (nombre_restaurante) y disfruta de una gran variedad de comidas, desde el mejor marisco, a la mejor carne de España 
+        </br><br>
+            
+    </br><br>
+           
+    </br>
+
+        </div>
+       
+        </a>
+        </div>
+        <div class="ubicacion1">
+            <b>UBICACIÓN:</b>
+            
+        </div>
+        <div class="mapa">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d305.1101894952385!2d-1.972121050004739!3d43.3202531317282!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1698307331479!5m2!1ses!2ses" width="640" height="380" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="ubicacion">
+            <h4>¿Quieres conocernos?</h4>
+            <br>
+             Si quieres conocernos te dejamos nuestra ubicación (Nazaret Zentroa) donde podrás conocernos y sí quieres información contamos con grandes trabajadores que te proporcionarán más información de cada evento.
+        </br>
+        </div>
+
+        <div class="logo">
+            <img src="Imagenes/LogoEUSKK1.jpg" width="700px " height="250px">
+        </div>
+           
+            <section>
+                <img src="https://cdn.pixabay.com/photo/2017/08/10/14/09/restaurant-2623071_1280.jpg">
+                <img src="https://cdn.pixabay.com/photo/2014/09/11/00/15/concert-441342_1280.jpg">
+                <img src="https://cdn.pixabay.com/photo/2019/08/09/06/12/car-racing-4394450_1280.jpg">
+                <img src="https://cdn.pixabay.com/photo/2020/10/09/21/03/buddha-5641534_1280.jpg">
+                <img src="https://cdn.pixabay.com/photo/2013/02/09/01/42/fireworks-79575_1280.jpg">
+                <img src="https://cdn.pixabay.com/photo/2016/11/08/05/15/ramayana-festival-1807516_1280.jpg">
+
+            </section>
+            
+
+            <div class = "privacy">
+            
+                    <a href="politicaprivacidad.html">
+                        <button class="boton1"> Politica de privacidad </button>
+                    </a>
+                    <a href="avisolegal.html">
+                        <button class="boton2"> Aviso legal </button>
+                    </a>
+            
+            </div>
+</div>
+          
+
+</body>
+</html>

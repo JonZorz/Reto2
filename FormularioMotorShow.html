@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+     <meta charset = "utf-8"/>
+    <link rel = "icon" href =  
+    "MSElegante.png"
+            type = "image/x-icon">
+<style>
+.main {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+
+.cabezera {
+    display: flex;
+    background-image: url('rolls.jpg');
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    grid-column: 1/4;
+    background-size: cover;
+    height: 200px;
+}
+
+.menu {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+ul, li {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 35px;
+}
+
+h1, u {
+    color: #1ECC81;
+}
+
+.formulario {
+    background-color: #afb2b3;
+    padding: 20px;
+    border-radius: 30px;
+    grid-column: 1 / 2;
+    grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticias {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 257px; 
+    right: 0;
+    max-width: 500px;
+    padding: 20px;
+    grid-column: 2/4;
+    grid-row:3/4;
+     
+}
+
+.cupon {
+    padding: 10px;
+    grid-column: 1 / 2;
+    grid-row: 4/5;
+    display: flex;
+    right:5%;
+     transform: translate(-185%, -140%);
+
+}
+
+table,th,td{
+       border: 2px solid black;
+       display: block;
+}
+th {
+    background-color: #1ECC81;
+}
+
+td{
+    background-color: #f2d4a2;
+    
+}
+
+body {
+    background-color: #e7f0bd;
+}
+  a {
+        color: #1ECC81;
+         text-decoration: none;
+    }
+
+h2{
+    font-size: 30px;
+}
+</style>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Formulario Motor Show </title>
+<link rel="stylesheet" href="ejercicio.style.css">
+</head>
+
+<body>
+
+
+        <script>
+    function validarFormulario() {
+        var y=document.forms["formulario"]["condiciones"].checked;
+
+        if (y == false) {
+            alert("Tienes que aceptar los términos y condiciones");
+            return false;
+        }
+
+    }
+
+</script>
+
+<div class="main">
+    <div class="cabezera">
+        <u><h1>Reservas</h1></u>
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="El_Reto1.html">Inicio</a></li>
+            
+            <li><a href="menu1.html">Menu</a></li>
+        </ul>
+    </div>
+    <div class="formulario">
+        <form name="formulario" method="get" action="http://192.168.1.18/insert.php" onsubmit="return validarFormulario()">
+            <input type="hidden" name="db" value ="motorshow">
+            <input type="hidden" name="table" value ="usuario">
+            <input type="hidden" name="IDUsuario">
+            <b>DNI:</b>
+            <input type="text" name="DNI"><br><br>
+            <b>Tu Nombre:</b>
+            <input type="text" name="Nombre" required><br><br>
+            <b>Tu Apellido:</b>
+            <input type="text" name="Apellido" required><br><br>
+            <b>Correo Electrónico:</b>
+            <input type="text" name="CorreoElectronico" required><br><br>
+            <b>Número de teléfono:</b>
+            <input type="text" name="Telefono"><br><br>
+            <B>Número de personas</B>
+            <input type="text" name="Personas" required><br><br>
+        
+            
+<label for="Hora"><b></b></label>                        
+         <b>Términos Y Condiciones:</b><br><br>
+           <a href="https://docs.google.com/document/d/1T8ovEvx7DZsetctObP-OprbICe6fS5VytpVv106Nohg/edit?usp=sharing" target="blank">Términos Y Condiciones</a>
+       
+
+            <div class="terms-container">
+        <div class="terms-checkbox-container">
+            <input class="acceptterms" type="checkbox" name="condiciones" value="agree_terms">
+        </div>
+        <div class="terms-text-container">
+            Acepto los Términos y Condiciones
+        </div>
+    </div>
+
+            <br><br>
+<b>¿A que hora es la reserva?</b> <br><br>
+            <b>13:00 - 14:30 </b>
+            <input type="radio" name="hora"><br><br>
+            <b>14:30 - 16:00</b>
+            <input type="radio" name="hora"><br><br>
+            <b>20:00 - 21:30</b>
+            <input type="radio" name="hora"><br><br>
+            <b>21:30 - 23:00</b>
+            <input type="radio" name="hora"><br><br>
+
+     <input type="submit" value="Enviar" style="width: 90px; height: 40px;">
+        </form>
+
+
+  <div class="noticias">
+<table>
+  <tr>
+ 
+   
+        <th> <h2> Eventos de festivos </h2></th>
+
+   
+  </tr>
+  <tr>
+    <td>Evento especial del Día de San Sebastian</td>
+ 
+  </tr>
+  <tr>
+    <td>
+        <img src="https://s03.s3c.es/imag/_v0/1185x656/2/0/f/BMW-Serie-5.jpg" height="310px" width="500px">
+    </td>
+ 
+  </tr>
+
+   <tr>
+    <td>
+        <p>Como principal novedad, la octava generación del modelo se ofrecerá también con propulsión totalmente eléctrica (denominada i5), Mild-Hybrid, con batería de 48 V. A partir de noviembre, también con dos versiones híbridas enchufables.
+        </p>
+    </td>
+ 
+  </tr>
+
+<tr>
+    <td>E</td>
+ 
+  </tr>
+  <tr>
+    <td>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Lamborghini_Revuelto_IMG01.jpg" height="310px" width="500px">
+    </td>
+ 
+  </tr>
+
+   <tr>
+    <td>
+        <p>Primer superdeportivo híbrido enchufable V12 HPEV. La potencia combinada del motor de combustión y tres motores eléctricos, junto con una caja de cambios de doble embrague que debuta por primera vez en un Lamborghini de 12 cilindros, es de 1.015 CV.</p>
+    </td>
+ 
+  </tr>
+
+</table>
+
+
+<div class="cupon">
+    <img src="cupon.jpg" height="170px" width="390px">
+</div>
+
+
+
+  </div>
+
+
+</body>
+</html>
