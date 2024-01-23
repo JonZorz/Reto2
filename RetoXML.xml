@@ -7,6 +7,7 @@
     <correoElectronico>ale.rebollo@gmail.com</correoElectronico>
     <numeroTelefono>638255599</numeroTelefono>
     <numeroPersona>10</numeroPersona>
+    <fecha>2024-05-22</fecha>
     <horaReserva>13:00 - 14:30</horaReserva>
     </reservas>
    
@@ -18,6 +19,7 @@
         <correoElectronico>jon.zorzano@gmail.com</correoElectronico>
         <numeroTelefono>638255599</numeroTelefono>
         <numeroPersona>20</numeroPersona>
+        <fecha>2024-02-20</fecha>
         <horaReserva>14:30 - 16:00</horaReserva>
         </reservas>
 
@@ -28,6 +30,7 @@
             <correoElectronico>aar.oliva@gmail.com</correoElectronico>
             <numeroTelefono>638255599</numeroTelefono>
             <numeroPersona>30</numeroPersona>
+            <fecha>2024-01-30</fecha>
             <horaReserva>20:00 - 21:30</horaReserva>
             </reservas>
 
@@ -39,6 +42,7 @@
                 <correoElectronico>jul.lopez@gmail.com</correoElectronico>
                 <numeroTelefono>638255599</numeroTelefono>
                 <numeroPersona>18</numeroPersona>
+                <fecha>2024-03-31</fecha>
                 <horaReserva>21:30 - 23:00</horaReserva>
                 </reservas>
 
@@ -50,6 +54,7 @@
                     <correoElectronico>mar.hernandez@gmail.com</correoElectronico>
                     <numeroTelefono>638255599</numeroTelefono>
                     <numeroPersona>12</numeroPersona>
+                    <fecha>2024-02-29</fecha>
                     <horaReserva>20:00 - 21:30</horaReserva>
                     </reservas>
 
@@ -61,6 +66,7 @@
                         <correoElectronico>mai.berasategui@gmail.com</correoElectronico>
                         <numeroTelefono>638255599</numeroTelefono>
                         <numeroPersona>2</numeroPersona>
+                        <fecha>2024-08-25</fecha>
                         <horaReserva>13:00 - 14:30</horaReserva>
                         </reservas>
 
@@ -73,6 +79,7 @@
                             <correoElectronico>jul.salinas@gmail.com</correoElectronico>
                             <numeroTelefono>638255599</numeroTelefono>
                             <numeroPersona>5</numeroPersona>
+                            <fecha>2024-05-05</fecha>
                             <horaReserva>14:30 - 16:00</horaReserva>
                             </reservas>
 
@@ -85,6 +92,7 @@
                                 <correoElectronico>iva.boiev@gmail.com</correoElectronico>
                                 <numeroTelefono>638255599</numeroTelefono>
                                 <numeroPersona>1</numeroPersona>
+                                <fecha>2024-09-09</fecha>
                                 <horaReserva>14:30 - 16:00</horaReserva>
                                 </reservas>
 
@@ -95,6 +103,7 @@
                                     <correoElectronico>mir.elicegui@gmail.com</correoElectronico>
                                     <numeroTelefono>638255599</numeroTelefono>
                                     <numeroPersona>14</numeroPersona>
+                                    <fecha>2024-01-24</fecha>
                                     <horaReserva>14:30 - 16:00</horaReserva>
                                     </reservas>
 
@@ -107,6 +116,7 @@
                                         <correoElectronico>mar.irastorza@gmail.com</correoElectronico>
                                         <numeroTelefono>638255599</numeroTelefono>
                                         <numeroPersona>13</numeroPersona>
+                                        <fecha>2024-03-02</fecha>
                                         <horaReserva>14:30 - 16:00</horaReserva>
                                         </reservas>
 
