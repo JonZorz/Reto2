@@ -8,11 +8,10 @@
             type = "image/x-icon">
 <style>
 .main {
-    width: 80%;
-    margin: 0 auto;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+    width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
 }
 
 .cabezera {
@@ -39,7 +38,7 @@ ul, li {
 }
 
 h1, u {
-    color: #1ECC81;
+    color:white;
 }
 
 .formulario {
@@ -83,7 +82,7 @@ table,th,td{
        display: block;
 }
 th {
-    background-color: #1ECC81;
+    background-color: white;
 }
 
 td{
@@ -92,10 +91,10 @@ td{
 }
 
 body {
-    background-color: #e7f0bd;
+   background-image: url('fondo.jpg');
 }
   a {
-        color: #1ECC81;
+        color:white;
          text-decoration: none;
     }
 
@@ -141,7 +140,7 @@ h2{
         <form name="formulario" method="get" action="http://192.168.1.18/insert.php" onsubmit="return validarFormulario()">
             <input type="hidden" name="db" value ="motorshow">
             <input type="hidden" name="table" value ="usuario">
-            <input type="hidden" name="IDUsuario">
+            <input type="hidden" name="idReserva">
             <b>DNI:</b>
             <input type="text" name="DNI"><br><br>
             <b>Tu Nombre:</b>
@@ -154,6 +153,8 @@ h2{
             <input type="text" name="Telefono"><br><br>
             <B>Número de personas</B>
             <input type="text" name="Personas" required><br><br>
+            <B>Hora de Reserva</B>
+            <input type="integer" name="hora" required><br><br>
         
             
 <label for="Hora"><b></b></label>                        
@@ -170,19 +171,7 @@ h2{
         </div>
     </div>
 
-            <br><br>
-<b>¿A que hora es la reserva?</b> <br><br>
-            <b>13:00 - 14:30 </b>
-            <input type="radio" name="hora"><br><br>
-            <b>14:30 - 16:00</b>
-            <input type="radio" name="hora"><br><br>
-            <b>20:00 - 21:30</b>
-            <input type="radio" name="hora"><br><br>
-            <b>21:30 - 23:00</b>
-            <input type="radio" name="hora"><br><br>
 
-     <input type="submit" value="Enviar" style="width: 90px; height: 40px;">
-        </form>
 
 
   <div class="noticias">
@@ -214,7 +203,7 @@ h2{
   </tr>
 
 <tr>
-    <td>E</td>
+    <td>Evento de Carnavales</td>
  
   </tr>
   <tr>

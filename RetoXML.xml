@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <Restaurante  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDReto.xsd">
+    <reservas>
+    <DNI>73043585R</DNI>
+    <nombre>Alejandro</nombre>
+    <apellido>Rebollo</apellido>
+    <correoElectronico>ale.rebollo@gmail.com</correoElectronico>
+    <numeroTelefono>638255599</numeroTelefono>
+    <numeroPersona>10</numeroPersona>
+    <fecha>2024-05-22</fecha>
+    <horaReserva>14:15:00</horaReserva>
+    
+    </reservas>
+   
+
+    <reservas>
+        <DNI>73043585R</DNI>
+        <nombre>Jon</nombre>
+        <apellido>Zorzano</apellido>
+        <correoElectronico>jon.zorzano@gmail.com</correoElectronico>
+        <numeroTelefono>638255599</numeroTelefono>
+        <numeroPersona>20</numeroPersona>
+        <fecha>2024-02-20</fecha>
+        <horaReserva>21:00:00</horaReserva>
+        
+        </reservas>
+
+        <reservas>
+            <DNI>73043585R</DNI>
+            <nombre>Aaron</nombre>
+            <apellido>Oliva</apellido>
+            <correoElectronico>aar.oliva@gmail.com</correoElectronico>
+            <numeroTelefono>638255599</numeroTelefono>
+            <numeroPersona>30</numeroPersona>
+            <fecha>2024-01-30</fecha>
+            <horaReserva>14:00:00</horaReserva>
+           
+            </reservas>
+
+
+            <reservas>
+                <DNI>73043585R</DNI>
+                <nombre>Julen</nombre>
+                <apellido>Lopez</apellido>
+                <correoElectronico>jul.lopez@gmail.com</correoElectronico>
+                <numeroTelefono>638255599</numeroTelefono>
+                <numeroPersona>18</numeroPersona>
+                <fecha>2024-03-31</fecha>
+                <horaReserva>15:00:00</horaReserva>
+                
+                </reservas>
+
+
+                <reservas>
+                    <DNI>73043585R</DNI>
+                    <nombre>Mario</nombre>
+                    <apellido>Hernandez</apellido>
+                    <correoElectronico>mar.hernandez@gmail.com</correoElectronico>
+                    <numeroTelefono>638255599</numeroTelefono>
+                    <numeroPersona>12</numeroPersona>
+                    <fecha>2024-02-29</fecha>
+                    <horaReserva>20:00:00</horaReserva>
+                    
+                    </reservas>
+
+
+                    <reservas>
+                        <DNI>73043585R</DNI>
+                        <nombre>Maialen</nombre>
+                        <apellido>Berasategui</apellido>
+                        <correoElectronico>mai.berasategui@gmail.com</correoElectronico>
+                        <numeroTelefono>638255599</numeroTelefono>
+                        <numeroPersona>2</numeroPersona>
+                        <fecha>2024-08-25</fecha>
+                        <horaReserva>21:30:00</horaReserva>
+                        
+                        </reservas>
+
+
+
+                        <reservas>
+                            <DNI>73043585R</DNI>
+                            <nombre>Julen</nombre>
+                            <apellido>Salinas</apellido>
+                            <correoElectronico>jul.salinas@gmail.com</correoElectronico>
+                            <numeroTelefono>638255599</numeroTelefono>
+                            <numeroPersona>5</numeroPersona>
+                            <fecha>2024-05-05</fecha>
+                            <horaReserva>22:00:00</horaReserva>
+                            
+                            </reservas>
+
+
+
+                            <reservas>
+                                <DNI>73043585R</DNI>
+                                <nombre>Ivan</nombre>
+                                <apellido>Boiev</apellido>
+                                <correoElectronico>iva.boiev@gmail.com</correoElectronico>
+                                <numeroTelefono>638255599</numeroTelefono>
+                                <numeroPersona>1</numeroPersona>
+                                <fecha>2024-09-09</fecha>
+                                <horaReserva>13:30:00</horaReserva>
+                               
+                                </reservas>
+
+                                <reservas>
+                                    <DNI>73043585R</DNI>
+                                    <nombre>Mireia</nombre>
+                                    <apellido>Elicegui</apellido>
+                                    <correoElectronico>mir.elicegui@gmail.com</correoElectronico>
+                                    <numeroTelefono>638255599</numeroTelefono>
+                                    <numeroPersona>14</numeroPersona>
+                                    <fecha>2024-01-24</fecha>
+                                    <horaReserva>14:45:00</horaReserva>
+                                    
+                                    </reservas>
+
+
+
+                                    <reservas>
+                                        <DNI>73043585R</DNI>
+                                        <nombre>Markel</nombre>
+                                        <apellido>Irastorza</apellido>
+                                        <correoElectronico>mar.irastorza@gmail.com</correoElectronico>
+                                        <numeroTelefono>638255599</numeroTelefono>
+                                        <numeroPersona>13</numeroPersona>
+                                        <fecha>2024-03-02</fecha>
+                                        <horaReserva>20:30:00</horaReserva>
+                                        
+                                        </reservas>
+
+</Restaurante>

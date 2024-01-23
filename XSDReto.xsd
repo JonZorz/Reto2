@@ -3,47 +3,54 @@
 
 <xs:element name="Restaurante">
     <xs:complexType>
-        <xs:all>
-            <xs:element name="DNI" minOccurs="1">
-                <xs:simpleType>
-                            <xs:restriction base="xs:string">
-                                   <xs:pattern value="[0-9]{8}[A-Z]"/>
-                            </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="nombre" minOccurs="1">
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:whiteSpace value="preserve"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="apellido" type="xs:string" minOccurs="1"/>
-            <xs:element name="correoElectronico" minOccurs="1">
-                <xs:simpleType>
-                    <xs:restriction base="xs:string">
-                        <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="numeroTelefono" minOccurs="1">
-                <xs:simpleType>
-                    <xs:restriction base="xs:integer">
-                        <xs:totalDigits value="9"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            <xs:element name="numeroPersona" minOccurs="1" maxOccurs="1">
-                <xs:simpleType>
-                    <xs:restriction base="xs:integer">
-                        <xs:maxExclusive value="30"/>
-                    </xs:restriction>
-                </xs:simpleType>
-            </xs:element>
-            
-
-        </xs:all>
-    </xs:complexType>
+        <xs:sequence>
+            <xs:element name="reservas" maxOccurs="unbounded">
+                <xs:complexType>
+                     <xs:sequence>
+                               <xs:element name="DNI" minOccurs="1" maxOccurs="1">
+                                     <xs:simpleType>
+                                           <xs:restriction base="xs:string">
+                                               <xs:pattern value="[0-9]{8}[A-Z]"/>
+                                         </xs:restriction>
+                                </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="nombre" minOccurs="1" maxOccurs="1">
+                                     <xs:simpleType>
+                                           <xs:restriction base="xs:string">
+                                               <xs:whiteSpace value="preserve"/>
+                                           </xs:restriction>
+                                     </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="apellido" type="xs:string" minOccurs="1" maxOccurs="1"/>
+                                <xs:element name="correoElectronico" minOccurs="1">
+                                      <xs:simpleType>
+                                            <xs:restriction base="xs:string">
+                                                <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
+                                            </xs:restriction>
+                                      </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="numeroTelefono" minOccurs="1" maxOccurs="1">
+                                      <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                                <xs:totalDigits value="9"/>
+                                            </xs:restriction>
+                                       </xs:simpleType>
+                                </xs:element>
+                                <xs:element name="numeroPersona" minOccurs="1" maxOccurs="1">
+                                      <xs:simpleType>
+                                            <xs:restriction base="xs:integer">
+                                                <xs:maxExclusive value="31"/>
+                                            </xs:restriction>
+                                      </xs:simpleType>
+                                 </xs:element> 
+                                 <xs:element name="fecha" minOccurs="1" maxOccurs="1" type="xs:date"/>
+                                 <xs:element name="horaReserva" maxOccurs="1" type="xs:time"/>
+                                               
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+       </xs:complexType>
 
 
 </xs:element>
