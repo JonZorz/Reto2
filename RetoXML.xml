@@ -8,7 +8,8 @@
     <numeroTelefono>638255599</numeroTelefono>
     <numeroPersona>10</numeroPersona>
     <fecha>2024-05-22</fecha>
-    <horaReserva>13:00 - 14:30</horaReserva>
+    <horaReserva>14:15:00</horaReserva>
+    
     </reservas>
    
 
@@ -20,7 +21,8 @@
         <numeroTelefono>638255599</numeroTelefono>
         <numeroPersona>20</numeroPersona>
         <fecha>2024-02-20</fecha>
-        <horaReserva>14:30 - 16:00</horaReserva>
+        <horaReserva>21:00:00</horaReserva>
+        
         </reservas>
 
         <reservas>
@@ -31,7 +33,8 @@
             <numeroTelefono>638255599</numeroTelefono>
             <numeroPersona>30</numeroPersona>
             <fecha>2024-01-30</fecha>
-            <horaReserva>20:00 - 21:30</horaReserva>
+            <horaReserva>14:00:00</horaReserva>
+           
             </reservas>
 
 
@@ -43,7 +46,8 @@
                 <numeroTelefono>638255599</numeroTelefono>
                 <numeroPersona>18</numeroPersona>
                 <fecha>2024-03-31</fecha>
-                <horaReserva>21:30 - 23:00</horaReserva>
+                <horaReserva>15:00:00</horaReserva>
+                
                 </reservas>
 
 
@@ -55,7 +59,8 @@
                     <numeroTelefono>638255599</numeroTelefono>
                     <numeroPersona>12</numeroPersona>
                     <fecha>2024-02-29</fecha>
-                    <horaReserva>20:00 - 21:30</horaReserva>
+                    <horaReserva>20:00:00</horaReserva>
+                    
                     </reservas>
 
 
@@ -67,7 +72,8 @@
                         <numeroTelefono>638255599</numeroTelefono>
                         <numeroPersona>2</numeroPersona>
                         <fecha>2024-08-25</fecha>
-                        <horaReserva>13:00 - 14:30</horaReserva>
+                        <horaReserva>21:30:00</horaReserva>
+                        
                         </reservas>
 
 
@@ -80,7 +86,8 @@
                             <numeroTelefono>638255599</numeroTelefono>
                             <numeroPersona>5</numeroPersona>
                             <fecha>2024-05-05</fecha>
-                            <horaReserva>14:30 - 16:00</horaReserva>
+                            <horaReserva>22:00:00</horaReserva>
+                            
                             </reservas>
 
 
@@ -93,7 +100,8 @@
                                 <numeroTelefono>638255599</numeroTelefono>
                                 <numeroPersona>1</numeroPersona>
                                 <fecha>2024-09-09</fecha>
-                                <horaReserva>14:30 - 16:00</horaReserva>
+                                <horaReserva>13:30:00</horaReserva>
+                               
                                 </reservas>
 
                                 <reservas>
@@ -104,7 +112,8 @@
                                     <numeroTelefono>638255599</numeroTelefono>
                                     <numeroPersona>14</numeroPersona>
                                     <fecha>2024-01-24</fecha>
-                                    <horaReserva>14:30 - 16:00</horaReserva>
+                                    <horaReserva>14:45:00</horaReserva>
+                                    
                                     </reservas>
 
 
@@ -117,7 +126,8 @@
                                         <numeroTelefono>638255599</numeroTelefono>
                                         <numeroPersona>13</numeroPersona>
                                         <fecha>2024-03-02</fecha>
-                                        <horaReserva>14:30 - 16:00</horaReserva>
+                                        <horaReserva>20:30:00</horaReserva>
+                                        
                                         </reservas>
 
 </Restaurante>
