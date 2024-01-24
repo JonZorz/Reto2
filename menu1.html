@@ -7,38 +7,46 @@
             type = "image/x-icon"></link> 
     <title>Document</title>
     <style>
-
-.cabezera {
-    display: flex;
-    background-image: url('rolls.jpg');
-    justify-content: center;
-    align-items: flex-end;
+    body {
+    background-image: url("imagenes/fondo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.cabezera{
+    width:auto;
+    height:100px;
     text-align: center;
-    grid-column: 1/4;
-    background-size: cover;
-    height: 200px;
+    color:rgb(66, 119, 66);
+    padding-top: 20px;
+}
+h2{
+    color:rgb(255, 255, 255);
+}
+.menu{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+.boton1{
+    margin-left: 20px;
 }
 
-
+.boton2{
+    margin-left: 1100px;
+}
     </style>
 
 </head>
 
-
 <body >
-    
-<div class="main">
     <div class = "cabezera">
-        <h1>nombre_restaurante</h1>
-    
-    </div>
-        <div class = "menu">
-        
-                <a href="El_Reto1.html">
-                    <button class="boton1">Inicio </button>
-                    </a>
-                    <a href="FormularioMotorShow.html">
-                        <button class="boton1"> Menu </button>
-                        </a>
-        
-    </div>
+        <b> <h1>El rincon de oliva</h1></b> </div>
+    <div class = "menu">
+         <a href="El_Reto1.html"> <button class="boton1">Inicio </button> </a>
+         <a href="FormularioMotorShow.html"> <button class="boton2"> Reservas </button>  </a>
+        </div>
+
+        <center><div clas="Menu del día">
+            <h2>Menu del día</h2>
+            <img class="menu"src="menu.jpg" height="850px" > 
+        </div></center>
