@@ -7,13 +7,6 @@
             <xs:element name="reservas" maxOccurs="unbounded">
                 <xs:complexType>
                      <xs:sequence>
-                               <xs:element name="DNI" minOccurs="1" maxOccurs="1">
-                                     <xs:simpleType>
-                                           <xs:restriction base="xs:string">
-                                               <xs:pattern value="[0-9]{8}[A-Z]"/>
-                                         </xs:restriction>
-                                </xs:simpleType>
-                                </xs:element>
                                 <xs:element name="nombre" minOccurs="1" maxOccurs="1">
                                      <xs:simpleType>
                                            <xs:restriction base="xs:string">
@@ -47,11 +40,22 @@
                                  <xs:element name="horaReserva" maxOccurs="1" type="xs:time"/>
                                                
                         </xs:sequence>
+                        <xs:attribute name="idReserva" type="idReservaType" use="required"/>
                     </xs:complexType>
+                   
                 </xs:element>
+                
             </xs:sequence>
        </xs:complexType>
 
 
 </xs:element>
+
+<xs:simpleType name="idReservaType">
+                 <xs:restriction base="xs:integer">
+                          <xs:totalDigits value="20"/>
+                 </xs:restriction>
+</xs:simpleType>
+                   
+            
 </xs:schema>

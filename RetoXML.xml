@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <Restaurante  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDReto.xsd">
-    <reservas>
-    <DNI>73043585R</DNI>
+    <reservas idReserva="1">
+    
     <nombre>Alejandro</nombre>
     <apellido>Rebollo</apellido>
     <correoElectronico>ale.rebollo@gmail.com</correoElectronico>
@@ -13,8 +13,8 @@
     </reservas>
    
 
-    <reservas>
-        <DNI>73043585R</DNI>
+    <reservas idReserva="2">
+       
         <nombre>Jon</nombre>
         <apellido>Zorzano</apellido>
         <correoElectronico>jon.zorzano@gmail.com</correoElectronico>
@@ -25,8 +25,8 @@
         
         </reservas>
 
-        <reservas>
-            <DNI>73043585R</DNI>
+        <reservas idReserva="3">
+            
             <nombre>Aaron</nombre>
             <apellido>Oliva</apellido>
             <correoElectronico>aar.oliva@gmail.com</correoElectronico>
@@ -38,8 +38,8 @@
             </reservas>
 
 
-            <reservas>
-                <DNI>73043585R</DNI>
+            <reservas idReserva="4">
+                
                 <nombre>Julen</nombre>
                 <apellido>Lopez</apellido>
                 <correoElectronico>jul.lopez@gmail.com</correoElectronico>
@@ -51,8 +51,8 @@
                 </reservas>
 
 
-                <reservas>
-                    <DNI>73043585R</DNI>
+                <reservas idReserva="5">
+                   
                     <nombre>Mario</nombre>
                     <apellido>Hernandez</apellido>
                     <correoElectronico>mar.hernandez@gmail.com</correoElectronico>
@@ -64,8 +64,8 @@
                     </reservas>
 
 
-                    <reservas>
-                        <DNI>73043585R</DNI>
+                    <reservas idReserva="6">
+                        
                         <nombre>Maialen</nombre>
                         <apellido>Berasategui</apellido>
                         <correoElectronico>mai.berasategui@gmail.com</correoElectronico>
@@ -78,8 +78,8 @@
 
 
 
-                        <reservas>
-                            <DNI>73043585R</DNI>
+                        <reservas idReserva="7">
+                           
                             <nombre>Julen</nombre>
                             <apellido>Salinas</apellido>
                             <correoElectronico>jul.salinas@gmail.com</correoElectronico>
@@ -92,8 +92,8 @@
 
 
 
-                            <reservas>
-                                <DNI>73043585R</DNI>
+                            <reservas idReserva="8">
+                                
                                 <nombre>Ivan</nombre>
                                 <apellido>Boiev</apellido>
                                 <correoElectronico>iva.boiev@gmail.com</correoElectronico>
@@ -104,8 +104,8 @@
                                
                                 </reservas>
 
-                                <reservas>
-                                    <DNI>73043585R</DNI>
+                                <reservas idReserva="9">
+                                    
                                     <nombre>Mireia</nombre>
                                     <apellido>Elicegui</apellido>
                                     <correoElectronico>mir.elicegui@gmail.com</correoElectronico>
@@ -118,8 +118,8 @@
 
 
 
-                                    <reservas>
-                                        <DNI>73043585R</DNI>
+                                    <reservas idReserva="10">
+                                       
                                         <nombre>Markel</nombre>
                                         <apellido>Irastorza</apellido>
                                         <correoElectronico>mar.irastorza@gmail.com</correoElectronico>
