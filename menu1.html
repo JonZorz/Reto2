@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+    <link rel="shortcut icon" href="logo2.png" />
 <head>
     <link rel="stylesheet" href="css/styleI.css">
     <meta charset="UTF-8">
     <link rel = "icon" href = "imagenes/LogoEUSKK1.jpg"
             type = "image/x-icon"></link> 
-    <title>Document</title>
+    <title>El rincon de oliva</title>
     <style>
     body {
-    background-image: url("imagenes/fondo.jpg");
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-image: url("imagenes/fondo6.jpg");
+    
+  
 }
 .cabezera{
     width:auto;
     height:100px;
     text-align: center;
-    color:rgb(66, 119, 66);
+    color:rgb(7, 7, 7);
     padding-top: 20px;
 }
 h2{
-    color:rgb(255, 255, 255);
+    color:rgb(19, 18, 18);
 }
 .menu{
     display: grid;
@@ -34,6 +35,71 @@ h2{
 .boton2{
     margin-left: 1100px;
 }
+section {
+    text-align: center;
+    display: flex;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+   grid-row: 16/17;
+   grid-column: 1/4;
+   margin-top: 20px;
+
+  }
+  section img {
+    width: 10px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(150%);
+    transition: .5s ease;
+    padding-left: 0px;
+    grid-row: 16/17;
+    
+  }
+  section img:hover{
+    cursor: pointer;
+    width: 700px;
+    opacity: 1;
+    filter: brightness(150%);
+    grid-row: 16/17;
+  }
+
+  .privacy{
+    border-radius: 90px;
+    background-color:#464747;
+    height: 85px;
+    width: 1110px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.boton3{
+    margin-left: 200px;
+    
+}
+
+.boton4{
+    margin-left: 20px;
+}
+.logo1{
+    height: 70px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+.logo2{
+    margin-left: 200px;
+    height: 70px;
+    border-radius: 50px;
+    margin-top: 5px;
+}
+
+.logo3{
+
+    height: 100px;
+    border-radius: 50px;
+    margin-left:600px;
+    margin-top: -35px;
+}
     </style>
 
 </head>
@@ -41,12 +107,58 @@ h2{
 <body >
     <div class = "cabezera">
         <b> <h1>El rincon de oliva</h1></b> </div>
+      
     <div class = "menu">
          <a href="El_Reto1.html"> <button class="boton1">Inicio </button> </a>
          <a href="FormularioMotorShow.html"> <button class="boton2"> Reservas </button>  </a>
         </div>
-
+        <img class="logo3"src="logo2.png" >
         <center><div clas="Menu del día">
             <h2>Menu del día</h2>
             <img class="menu"src="menu.jpg" height="850px" > 
         </div></center>
+
+        <section>
+            <img src="imagenes/comida/foto10.jpg">
+            <img src="imagenes/comida/foto11.jpg">
+            <img src="imagenes/comida/foto2.jpg">
+            <img src="imagenes/comida/foto4.jpg">
+            <img src="imagenes/comida/foto14.jpg">
+            <img src="imagenes/comida/foto5.jpg">
+            <img src="imagenes/comida/foto8.jpg">
+            <img src="imagenes/comida/foto15.jpg">
+            <img src="imagenes/comida/foto9.jpg">
+            <img src="imagenes/comida/foto12.jpg">
+            <img src="imagenes/comida/foto13.jpg">
+        </section>
+        <div clas="Platos:">
+            <center><h2>Más platos:</h2>
+            <img src="imagenes/comida/foto20.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto21.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto22.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto23.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto24.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto25.png" height="200px" width="200px">
+            <p>
+            <img src="imagenes/comida/foto26.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto27.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto28.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto29.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto30.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto31.png" height="200px" width="200px">
+            <p>
+            <img src="imagenes/comida/foto40.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto41.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto42.png" height="200px" width="200px">
+            <img src="imagenes/comida/foto43.png" height="200px" width="200px">
+            </div></center>
+        
+       <center> <div class = "privacy">
+        <img class="logo1"src="logo2.png" >
+            <a href="politicaprivacidad.html">
+                <button class="boton3"> Politica de privacidad del restaurante</button> </a>
+            <a href="avisolegal.html">  <button class="boton4"> Aviso legal </button>  </a>
+            <img class="logo2"src="logo2.png">
+      </div></center>
+
+</body>
