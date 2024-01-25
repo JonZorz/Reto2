@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styleI.css">
+    <meta charset="UTF-8">
+    <link rel = "icon" href = "imagenes/comida/logo2.png"
+            type = "image/x-icon"></link> 
+    <title>Chefs</title>
+    <style>
+
+.main{
+        
+        width: 70%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+}
+h1{
+    color: white;
+    -webkit-text-stroke: 2px black;
+    border-color: black;
+    text-align: center;
+}
+body {
+    
+    background-image: url('imagenes/fondo6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    
+}   
+.cabezera{
+    text-align: center;
+    grid-column: 1/4;
+    font-size: 30px;
+}
+
+.menu {
+    border-radius: 70px;
+    background-color:#539fa2;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-row: 2/2;
+    grid-column: 1/4;
+    width: 933px;
+}
+
+.menu li, ul {
+    text-decoration: none;
+    display: inline;
+    padding: 35px;
+}
+ul,li{
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+}
+.quienessomos{
+    border-radius: 50px;
+    margin: auto;
+    padding: 20px;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    background-color: #72b1a4;
+    width: 80%;
+
+    
+}
+h2, u { 
+    color: white;
+}
+
+.logo{
+
+    text-align: center;
+    grid-column: 1/4;
+    grid-row:4/5;
+}
+
+section {
+    text-align: center;
+    display: flex;
+    width: 800px;
+    height: 430px;
+    margin: 0 auto;
+   grid-row: 16/17;
+   grid-column: 1/4;
+
+  }
+  section img {
+    width: 20px;
+    flex-grow: 1;
+    object-fit: cover;
+    filter: brightness(150%);
+    transition: .5s ease;
+    padding-left: 0px;
+    grid-row: 16/17;
+    
+  }
+  section img:hover{
+    cursor: pointer;
+    width: 700px;
+    opacity: 1;
+    filter: brightness(150%);
+    grid-row: 16/17;
+  }
+
+  .privacy{
+    border-radius: 90px;
+    background-color:#464747;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 933px;
+    grid-column: 1/4;
+    grid-row: 17/18;
+    
+  }
+  .boton1 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: #539fa2;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton1:hover {
+    background-color: #abccb1;
+    transform: scale(1.05);
+}
+  .boton2 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: #539fa2;
+    color: #000000;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton2:hover {
+    background-color: #abccb1; 
+    transform: scale(1.05);
+}
+.boton3 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: #464747;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton3:hover {
+    background-color: #303131;
+    transform: scale(1.05);
+}
+  .boton4 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: #464747;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton4:hover {
+    background-color: #303131; 
+    transform: scale(1.05);
+}
+.Jon{
+grid-column: 1/2;
+grid-row: 4/5;
+color: white;
+-webkit-text-stroke: 1px black;
+border-color: black;
+}
+.JonT,p{
+grid-column: 2/4;
+grid-row: 4/5;
+text-align: center;
+margin-top: 50px;
+background-color: #72b1a4;
+width: 80%;
+border-radius: 50px;
+margin: auto;
+padding: 20px;
+}
+.Mario{
+grid-column: 1/2;
+grid-row: 5/6;
+color: white;
+-webkit-text-stroke: 1px black;
+border-color: black;
+}
+.MarioT,p{
+grid-column: 2/4;
+grid-row: 5/6;
+text-align: center;
+margin-top: 50px;
+background-color: #72b1a4;
+width: 80%;
+border-radius: 50px;
+margin: auto;
+padding: 20px;
+}
+.Alejandro{
+grid-column: 1/2;
+grid-row: 6/7;
+color: white;
+-webkit-text-stroke: 1px black;
+border-color: black;
+}
+.AlejandroT,p{
+grid-column: 2/4;
+grid-row: 6/7;
+text-align: center;
+margin-top: 50px;
+background-color: #72b1a4;
+width: 80%;
+border-radius: 50px;
+margin: auto;
+padding: 20px;
+}
+.Julen{
+grid-column: 1/2;
+grid-row: 7/8;
+color: white;
+-webkit-text-stroke: 1px black;
+border-color: black;
+}
+.JulenT,p{
+grid-column: 2/4;
+grid-row: 7/8;
+text-align: center;
+margin-top: 50px;
+background-color: #72b1a4;
+width: 80%;
+border-radius: 50px;
+margin: auto;
+padding: 20px;
+}
+.Aaron{
+grid-column: 1/2;
+grid-row: 8/9;
+color: white;
+-webkit-text-stroke: 1px black;
+border-color: black;
+}
+.AaronT,p{
+grid-column: 2/4;
+grid-row: 8/9;
+text-align: center;
+margin-top: 50px;
+background-color: #72b1a4;
+width: 80%;
+border-radius: 50px;
+margin: auto;
+padding: 20px;
+}
+.subtitulo h1{
+    color: white;
+    -webkit-text-stroke: 2px black;
+    border-color: black;
+    margin-left: 425px;
+}
+    </style>
+
+</head>
+
+
+<body >
+    
+<div class="main">
+    <div class = "cabezera">
+        <h1>El Rincón de Oliva</h1>
+    
+    </div>
+        <div class = "menu">
+        
+                <a href="El_Reto1.html">
+                    <button class="boton1"> Inicio </button>
+                </a>
+                <a href="FormularioMotorShow.html">
+                    <button class="boton1"> Reservas </button>
+                </a>
+                <a href="menu1.html">
+                    <button class="boton1"> Menu </button>
+                </a>
+        
+    </div>
+
+    <body>    
+    
+  <div class="subtitulo">
+        <h1>Chefs</h1>
+    </div>    
+
+        
+        
+        <div class="Jon">
+                <h2>Jon Zorzano</h2><img src="imagenes/personas/Jon.jpeg" height="150"></div>
+           <div class="JonT"><p>Jon, chef creativo, cautiva con su habilidad culinaria única que fusiona lo tradicional y lo moderno..</p></div>
+                 
+            
+
+    
+
+            <div class="Mario">
+                <h2>Mario Hernández </h2><img src="./imagenes/mario.png" alt="Mario"></div>
+           <div class="MarioT"><p>Mario, chef apasionado, eleva la experiencia culinaria con su destreza en la cocina, transformando ingredientes simples en delicias sorprendentes..</p></div>
+                 
+           
+            
+
+    
+
+            <div class="Alejandro">
+                <h2>Alejandro Rebollo</h2><img src="imagenes/personas/Alejandro.jpg" height="120"> </div>
+           <div class="AlejandroT"><p>Alejandro, chef innovador, redefine la cocina con su creatividad audaz, ofreciendo platos que despiertan los sentidos y dejan una impresión duradera..</p></div>
+                 
+          
+           
+
+    
+
+            <div class="Julen">
+                <h2>Julen Lopez</h2><img src="./imagenes/julen.jpg" height=""></div> 
+           <div class="JulenT"><p>Julen, chef talentoso, fusiona técnicas expertas con creatividad única para crear experiencias gastronómicas inolvidables..</p></div>
+                 
+          
+            
+    
+
+                <div class="Aaron">
+                    <h2>Aaron Oliva</h2><img src="imagenes/personas/Aaron.jpg" height="150">  </div> 
+               <div class="AaronT"><p>Aaron, chef versátil, transforma ingredientes con maestría, ofreciendo platos que destacan por su originalidad y sabor excepcional.</p></div>
+                     
+              
+               <div class = "privacy">
+            
+                <a href="Aviso y Politicas/PoliticaPrivacidad.html" target="blank">
+                    <button class="boton3"> Politica de privacidad del restaurante</button>
+                </a>
+                <a href="Aviso y Politicas/AvisoLegal.html" target="blank">
+                    <button class="boton4"> Aviso legal </button>
+                </a>
+        </div>
+    </body>
+</html>
