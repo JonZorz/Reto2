@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-
-     <meta charset = "utf-8"/>
-    <link rel = "icon" href =  
-    "MSElegante.png"
-            type = "image/x-icon">
+<head> <link rel="stylesheet" href="css/styleI.css">
+    <meta charset="UTF-8">
+    <link rel = "icon" href = "logo2.png"
+            type = "image/x-icon"></link> 
+    <title>Reservas</title>
 <style>
 .main {
     width: 70%;
@@ -66,27 +65,22 @@ h1{
     justify-content: center;
     align-items: center;
     position: absolute;
-    top: 257px; 
+    top: 165px; 
     right: 0;
-    max-width: 500px;
-    padding: 20px;
+    max-width: 400px;
+    padding: 70px;
     grid-column: 2/4;
-    grid-row:3/4;
+    grid-row:2/3;
      
 }
 
-.cupon {
-    padding: 10px;
+.mapa {
     grid-column: 1 / 2;
     grid-row: 4/5;
-    display: flex;
-    right:5%;
-     transform: translate(-185%, -140%);
-
 }
 
 table,th,td{
-       border: 2px solid black;
+       border: 1px solid black;
        display: block;
 }
 th {
@@ -141,6 +135,52 @@ h2{
     background-color: #abccb1; 
     transform: scale(1.05);
 }
+.boton3 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: #464747;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton3:hover {
+    background-color: #303131;
+    transform: scale(1.05);
+}
+  .boton4 {
+    height: 50px;
+    width: 200px;
+    border: none;
+    border-radius: 25px;
+    background-color: #464747;
+    color: whitesmoke;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.boton4:hover {
+    background-color: #303131; 
+    transform: scale(1.05);
+}
+
+.privacy{
+    border-radius: 90px;
+    background-color:#464747;
+    height: 75px;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 933px;
+    grid-column: 1/4;
+    grid-row: 17/18;
+    
+  }
 </style>
 
 <meta charset="UTF-8">
@@ -167,7 +207,7 @@ h2{
 
 <div class="main">
     <div class="cabezera">
-        <h1>Reservas</h1>
+        <h1>El Rincón de Oliva</h1>
     </div>
     <div class = "menu">
         
@@ -175,8 +215,9 @@ h2{
             <button class="boton1"> Inicio </button>
             </a>
             <a href="menu1.html">
-                <button class="boton1"> Menu </button>
+                <button class="boton2"> Menu </button>
                 </a>
+
 
 </div>
     <div class="formulario">
@@ -214,7 +255,8 @@ h2{
             Acepto los Términos y Condiciones
         </div>
     </div>
-
+</form>
+    </div>
 
 
 
@@ -228,19 +270,19 @@ h2{
    
   </tr>
   <tr>
-    <td>Evento especial del Día de San Sebastian</td>
+    <td>Evento especial Halloween</td>
  
   </tr>
   <tr>
     <td>
-        <img src="https://s03.s3c.es/imag/_v0/1185x656/2/0/f/BMW-Serie-5.jpg" height="310px" width="500px">
+        <img src="imagenes/haloween.jpg" height="220px">
     </td>
  
   </tr>
 
    <tr>
     <td>
-        <p>Como principal novedad, la octava generación del modelo se ofrecerá también con propulsión totalmente eléctrica (denominada i5), Mild-Hybrid, con batería de 48 V. A partir de noviembre, también con dos versiones híbridas enchufables.
+        <p>Halloween se celebra el 31 de octubre, el día en el que las almas de los muertos tienen derecho a regresar a sus antiguos hogares. Las brujas y los demonios tienen mucho poder durante ese día.
         </p>
     </td>
  
@@ -252,29 +294,40 @@ h2{
   </tr>
   <tr>
     <td>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d8/Lamborghini_Revuelto_IMG01.jpg" height="310px" width="500px">
+        <img src="imagenes/carnaval.jpg"width="400px">
     </td>
  
   </tr>
 
    <tr>
     <td>
-        <p>Primer superdeportivo híbrido enchufable V12 HPEV. La potencia combinada del motor de combustión y tres motores eléctricos, junto con una caja de cambios de doble embrague que debuta por primera vez en un Lamborghini de 12 cilindros, es de 1.015 CV.</p>
+        <p>Un par de días al año y casi siempre entre febrero y marzo, las calles de varios países se llenan de colores, música, disfraces y alegría entre sus asistentes. Esto es lo que es el carnaval: un festejo donde reinan la alegría y la diversión.</p>
     </td>
  
   </tr>
 
 </table>
+  </div>
 
-
-<div class="cupon">
-    <img src="cupon.jpg" height="170px" width="390px">
+<div class="mapa">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1220.3863301508718!2d-1.9992157844875214!3d43.32296266934904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2ses!4v1706174068482!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 
 
   </div>
 
-
+</div>
+<div class="main">
+<div class = "privacy">
+            
+    <a href="PoliticaPrivacidad.html" target="blank">
+        <button class="boton3"> Politica de privacidad del restaurante</button>
+    </a>
+    <a href="AvisoLegal.html" target="blank">
+        <button class="boton4"> Aviso legal </button>
+    </a>
+</div>
+</div>
 </body>
 </html>
