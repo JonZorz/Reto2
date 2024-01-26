@@ -211,7 +211,7 @@ h2{
     </div>
     <div class = "menu">
         
-        <a href="El_Reto1.html">
+        <a href="index.html">
             <button class="boton1"> Inicio </button>
         </a>
         <a href="menu1.html">
@@ -224,10 +224,10 @@ h2{
 
 </div>
     <div class="formulario">
-        <form name="formulario" method="get" action="http://192.168.1.18/insert.php" onsubmit="return validarFormulario()">
-            <input type="hidden" name="db" value ="motorshow">
-            <input type="hidden" name="table" value ="usuario">
-            <input type="hidden" name="idReserva">
+        <form name="formulario" method="get" action="http://192.168.1.16/reservas.php" onsubmit="return validarFormulario()">
+            <input type="hidden" name="db" value ="retodefinitivo(espero)">
+            <input type="hidden" name="table" value ="reservas">
+            <input type="hidden" name="idreserva">
             
             <b>Tu Nombre:</b>
             <input type="text" name="Nombre" required><br><br>
@@ -236,9 +236,9 @@ h2{
             <b>Correo Electrónico:</b>
             <input type="text" name="CorreoElectronico" required><br><br>
             <b>Número de teléfono:</b>
-            <input type="text" name="Telefono"><br><br>
+            <input type="int" name="Telefono"><br><br>
             <B>Número de personas</B>
-            <input type="text" name="Personas" required><br><br>
+            <input type="int" name="Personas" required><br><br>
             <B>Hora de Reserva</B>
             <input type="time" name="hora" required><br><br>
             <b>Fecha de reserva </b>
@@ -246,18 +246,10 @@ h2{
         
             
 <label for="Hora"><b></b></label>                        
-         <b>Términos Y Condiciones:</b><br><br>
-           <a href="https://docs.google.com/document/d/1T8ovEvx7DZsetctObP-OprbICe6fS5VytpVv106Nohg/edit?usp=sharing" target="blank">Términos Y Condiciones</a>
+         
        
 
-            <div class="terms-container">
-        <div class="terms-checkbox-container">
-            <input class="acceptterms" type="checkbox" name="condiciones" value="agree_terms">
-        </div>
-        <div class="terms-text-container">
-            Acepto los Términos y Condiciones
-        </div>
-    </div>
+            
     <input type="submit" value="Enviar" style="width: 90px; height: 40px;">
         </form>
 
