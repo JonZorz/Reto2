@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <Restaurante  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDReto.xsd">
-    <reservas idReserva="1">
+    <reservas idReserva="7">
     
     <nombre>Alejandro</nombre>
     <apellido>Rebollo</apellido>
@@ -13,7 +13,7 @@
     </reservas>
    
 
-    <reservas idReserva="2">
+    <reservas idReserva="8">
        
         <nombre>Jon</nombre>
         <apellido>Zorzano</apellido>
@@ -25,7 +25,7 @@
         
         </reservas>
 
-        <reservas idReserva="3">
+        <reservas idReserva="9">
             
             <nombre>Aaron</nombre>
             <apellido>Oliva</apellido>
@@ -38,7 +38,7 @@
             </reservas>
 
 
-            <reservas idReserva="4">
+            <reservas idReserva="10">
                 
                 <nombre>Julen</nombre>
                 <apellido>Lopez</apellido>
@@ -51,7 +51,7 @@
                 </reservas>
 
 
-                <reservas idReserva="5">
+                <reservas idReserva="11">
                    
                     <nombre>Mario</nombre>
                     <apellido>Hernandez</apellido>
@@ -64,7 +64,7 @@
                     </reservas>
 
 
-                    <reservas idReserva="6">
+                    <reservas idReserva="12">
                         
                         <nombre>Maialen</nombre>
                         <apellido>Berasategui</apellido>
@@ -78,7 +78,7 @@
 
 
 
-                        <reservas idReserva="7">
+                        <reservas idReserva="13">
                            
                             <nombre>Julen</nombre>
                             <apellido>Salinas</apellido>
@@ -92,7 +92,7 @@
 
 
 
-                            <reservas idReserva="8">
+                            <reservas idReserva="14">
                                 
                                 <nombre>Ivan</nombre>
                                 <apellido>Boiev</apellido>
@@ -104,7 +104,7 @@
                                
                                 </reservas>
 
-                                <reservas idReserva="9">
+                                <reservas idReserva="15">
                                     
                                     <nombre>Mireia</nombre>
                                     <apellido>Elicegui</apellido>
@@ -118,7 +118,7 @@
 
 
 
-                                    <reservas idReserva="10">
+                                    <reservas idReserva="16">
                                        
                                         <nombre>Markel</nombre>
                                         <apellido>Irastorza</apellido>
