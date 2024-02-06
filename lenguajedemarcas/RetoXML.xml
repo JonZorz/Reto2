@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <Restaurante  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDReto.xsd">
+    <!-- Hemos añadido los usuarios a el xml -->
+    
     <reservas idReserva="24">
     
     <nombre>Alejandro</nombre>

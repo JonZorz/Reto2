@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" version="0.1" xml:lang="es">
-
+<!-- Añadimos el elemento restaurante-->
 <xs:element name="Restaurante">
     <xs:complexType>
+        <!-- Es un complextype porque hay varios elementos en el elemento restaurante-->
         <xs:sequence>
+            <!-- Utilizamos el sequence para que todas las cosas esten ordenadas-->
             <xs:element name="reservas" maxOccurs="unbounded">
+                <!-- Hemos utilizado unbouded para que en el xml no haya limite de reservas-->
                 <xs:complexType>
                      <xs:sequence>
                                 <xs:element name="nombre" minOccurs="1" maxOccurs="1">
                                      <xs:simpleType>
+                                        <!-- Tenemos simpletype ya que al contrario que complextype solo tiene un elemento-->
                                            <xs:restriction base="xs:string">
                                                <xs:whiteSpace value="preserve"/>
                                            </xs:restriction>
