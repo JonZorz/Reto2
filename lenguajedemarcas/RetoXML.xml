@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
   <Restaurante  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="XSDReto.xsd">
-    <reservas idReserva="7">
+    <reservas idReserva="24">
     
     <nombre>Alejandro</nombre>
     <apellido>Rebollo</apellido>
-    <correoElectronico>ale.rebollo@gmail.com</correoElectronico>
+    <correoElectronico>al.rebollo@aulanz.net</correoElectronico>
     <numeroTelefono>638255599</numeroTelefono>
     <numeroPersona>10</numeroPersona>
     <fecha>2024-05-22</fecha>
@@ -13,121 +13,131 @@
     </reservas>
    
 
-    <reservas idReserva="8">
-       
-        <nombre>Jon</nombre>
-        <apellido>Zorzano</apellido>
-        <correoElectronico>jon.zorzano@gmail.com</correoElectronico>
-        <numeroTelefono>638255599</numeroTelefono>
-        <numeroPersona>20</numeroPersona>
-        <fecha>2024-02-20</fecha>
-        <horaReserva>21:00:00</horaReserva>
+    <reservas idReserva="25">
+    
+        <nombre>Maialen</nombre>
+        <apellido>Berasategi</apellido>
+        <correoElectronico>ma.berasategi@gmail.com</correoElectronico>
+        <numeroTelefono>123456789</numeroTelefono>
+        <numeroPersona>10</numeroPersona>
+        <fecha>2024-05-22</fecha>
+        <horaReserva>14:15:00</horaReserva>
         
         </reservas>
 
-        <reservas idReserva="9">
+        <reservas idReserva="26">
+    
+            <nombre>Julen</nombre>
+            <apellido>Salinas</apellido>
+            <correoElectronico>ju.salinas@gmail.com</correoElectronico>
+            <numeroTelefono>987654321 </numeroTelefono>
+            <numeroPersona>1</numeroPersona>
+            <fecha>2024-05-22</fecha>
+            <horaReserva>14:15:00</horaReserva>
             
-            <nombre>Aaron</nombre>
-            <apellido>Oliva</apellido>
-            <correoElectronico>aar.oliva@gmail.com</correoElectronico>
-            <numeroTelefono>638255599</numeroTelefono>
-            <numeroPersona>30</numeroPersona>
-            <fecha>2024-01-30</fecha>
-            <horaReserva>14:00:00</horaReserva>
-           
             </reservas>
 
 
-            <reservas idReserva="10">
-                
-                <nombre>Julen</nombre>
-                <apellido>Lopez</apellido>
-                <correoElectronico>jul.lopez@gmail.com</correoElectronico>
-                <numeroTelefono>638255599</numeroTelefono>
-                <numeroPersona>18</numeroPersona>
-                <fecha>2024-03-31</fecha>
-                <horaReserva>15:00:00</horaReserva>
+            <reservas idReserva="27">
+    
+                <nombre>Pedro</nombre>
+                <apellido>De la Rosa</apellido>
+                <correoElectronico>pe.delarosa@gmail.com</correoElectronico>
+                <numeroTelefono>638456733</numeroTelefono>
+                <numeroPersona>6</numeroPersona>
+                <fecha>2024-04-24</fecha>
+                <horaReserva>20:15:00</horaReserva>
                 
                 </reservas>
 
 
-                <reservas idReserva="11">
-                   
-                    <nombre>Mario</nombre>
-                    <apellido>Hernandez</apellido>
-                    <correoElectronico>mar.hernandez@gmail.com</correoElectronico>
-                    <numeroTelefono>638255599</numeroTelefono>
-                    <numeroPersona>12</numeroPersona>
-                    <fecha>2024-02-29</fecha>
-                    <horaReserva>20:00:00</horaReserva>
+                <reservas idReserva="28">
+    
+                    <nombre>Markel</nombre>
+                    <apellido>Irastorza</apellido>
+                    <correoElectronico>ma.irastorza@aulanz.net</correoElectronico>
+                    <numeroTelefono>646547776</numeroTelefono>
+                    <numeroPersona>3</numeroPersona>
+                    <fecha>2024-02-14</fecha>
+                    <horaReserva>21:15:00</horaReserva>
                     
                     </reservas>
 
 
-                    <reservas idReserva="12">
-                        
-                        <nombre>Maialen</nombre>
-                        <apellido>Berasategui</apellido>
-                        <correoElectronico>mai.berasategui@gmail.com</correoElectronico>
-                        <numeroTelefono>638255599</numeroTelefono>
-                        <numeroPersona>2</numeroPersona>
-                        <fecha>2024-08-25</fecha>
-                        <horaReserva>21:30:00</horaReserva>
+                    <reservas idReserva="29">
+    
+                        <nombre>Beñat</nombre>
+                        <apellido>Ezkerro</apellido>
+                        <correoElectronico>be.ezkerro@aulanz.net</correoElectronico>
+                        <numeroTelefono>683551981</numeroTelefono>
+                        <numeroPersona>17</numeroPersona>
+                        <fecha>2024-04-12</fecha>
+                        <horaReserva>13:15:00</horaReserva>
                         
                         </reservas>
 
 
 
-                        <reservas idReserva="13">
-                           
-                            <nombre>Julen</nombre>
-                            <apellido>Salinas</apellido>
-                            <correoElectronico>jul.salinas@gmail.com</correoElectronico>
-                            <numeroTelefono>638255599</numeroTelefono>
-                            <numeroPersona>5</numeroPersona>
-                            <fecha>2024-05-05</fecha>
-                            <horaReserva>22:00:00</horaReserva>
+                        <reservas idReserva="30">
+    
+                            <nombre>Cristina</nombre>
+                            <apellido>Bayona</apellido>
+                            <correoElectronico>cr.bayona@aulanz.net</correoElectronico>
+                            <numeroTelefono>692344694</numeroTelefono>
+                            <numeroPersona>3</numeroPersona>
+                            <fecha>2024-06-15</fecha>
+                            <horaReserva>14:30:00</horaReserva>
                             
                             </reservas>
 
 
 
-                            <reservas idReserva="14">
+                            <reservas idReserva="31">
+    
+                                <nombre>Aritz</nombre>
+                                <apellido>Larrea</apellido>
+                                <correoElectronico>ar.larrea@aulanz.net</correoElectronico>
+                                <numeroTelefono>688605774</numeroTelefono>
+                                <numeroPersona>29</numeroPersona>
+                                <fecha>2024-02-14</fecha>
+                                <horaReserva>22:00:00</horaReserva>
                                 
-                                <nombre>Ivan</nombre>
-                                <apellido>Boiev</apellido>
-                                <correoElectronico>iva.boiev@gmail.com</correoElectronico>
-                                <numeroTelefono>638255599</numeroTelefono>
-                                <numeroPersona>1</numeroPersona>
-                                <fecha>2024-09-09</fecha>
-                                <horaReserva>13:30:00</horaReserva>
-                               
                                 </reservas>
 
-                                <reservas idReserva="15">
-                                    
-                                    <nombre>Mireia</nombre>
-                                    <apellido>Elicegui</apellido>
-                                    <correoElectronico>mir.elicegui@gmail.com</correoElectronico>
-                                    <numeroTelefono>638255599</numeroTelefono>
-                                    <numeroPersona>14</numeroPersona>
-                                    <fecha>2024-01-24</fecha>
-                                    <horaReserva>14:45:00</horaReserva>
+                                <reservas idReserva="32">
+    
+                                    <nombre>Markel</nombre>
+                                    <apellido>Azpiazu</apellido>
+                                    <correoElectronico>ma.azpiazu@aulanz.net</correoElectronico>
+                                    <numeroTelefono>638966922</numeroTelefono>
+                                    <numeroPersona>23</numeroPersona>
+                                    <fecha>2024-07-10</fecha>
+                                    <horaReserva>15:00:00</horaReserva>
                                     
                                     </reservas>
 
 
 
-                                    <reservas idReserva="16">
-                                       
-                                        <nombre>Markel</nombre>
-                                        <apellido>Irastorza</apellido>
-                                        <correoElectronico>mar.irastorza@gmail.com</correoElectronico>
-                                        <numeroTelefono>638255599</numeroTelefono>
-                                        <numeroPersona>13</numeroPersona>
-                                        <fecha>2024-03-02</fecha>
-                                        <horaReserva>20:30:00</horaReserva>
+                                    <reservas idReserva="33">
+    
+                                        <nombre>Carmelo</nombre>
+                                        <apellido>Ovono</apellido>
+                                        <correoElectronico>ca.ovono@aulanz.net</correoElectronico>
+                                        <numeroTelefono>683473722</numeroTelefono>
+                                        <numeroPersona>2</numeroPersona>
+                                        <fecha>2024-02-10</fecha>
+                                        <horaReserva>01:00:00</horaReserva>
                                         
                                         </reservas>
-
+                                        <reservas idReserva="34">
+    
+                                            <nombre>Iñaki</nombre>
+                                            <apellido>Dávila</apellido>
+                                            <correoElectronico>in.davila@aulanz.net</correoElectronico>
+                                            <numeroTelefono>672409807</numeroTelefono>
+                                            <numeroPersona>10</numeroPersona>
+                                            <fecha>2024-02-29</fecha>
+                                            <horaReserva>04:00:00</horaReserva>
+                                            
+                                            </reservas>
 </Restaurante>
