@@ -14,7 +14,9 @@
                                      <xs:simpleType>
                                         <!-- Tenemos simpletype ya que al contrario que complextype solo tiene un elemento-->
                                            <xs:restriction base="xs:string">
+                                            <!-- El comando xs:string es para decir que nuestro elemento es en texto-->
                                                <xs:whiteSpace value="preserve"/>
+                                               <!-- El comando preserve te permite poner un espacio en caso de tener un nombre compuesto-->
                                            </xs:restriction>
                                      </xs:simpleType>
                                 </xs:element>
@@ -23,13 +25,16 @@
                                       <xs:simpleType>
                                             <xs:restriction base="xs:string">
                                                 <xs:pattern value="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
+                                                <!-- Los valores los cuales salen arriba, son aquellos valores que se permiten-->
                                             </xs:restriction>
                                       </xs:simpleType>
                                 </xs:element>
                                 <xs:element name="numeroTelefono" minOccurs="1" maxOccurs="1">
                                       <xs:simpleType>
                                             <xs:restriction base="xs:integer">
+                                                <!-- xs:integer es para que el elemento se de tipo numerico (entero)-->
                                                 <xs:totalDigits value="9"/>
+                                                <!-- xs:totalDigits es para marcar cuantos valores tiene que haber como maximo-->
                                             </xs:restriction>
                                        </xs:simpleType>
                                 </xs:element>
@@ -41,10 +46,13 @@
                                       </xs:simpleType>
                                  </xs:element> 
                                  <xs:element name="fecha" minOccurs="1" maxOccurs="1" type="xs:date"/>
+                                 <!-- xs:date es para mostrarnos que es una fecha-->
                                  <xs:element name="horaReserva" maxOccurs="1" type="xs:time"/>
+                                 <!-- xs:time es para mostrar que es una hora-->
                                                
                         </xs:sequence>
                         <xs:attribute name="idReserva" type="idReservaType" use="required"/>
+                        <!-- required es para que ese campo sea obligatorio-->
                     </xs:complexType>
                    
                 </xs:element>
